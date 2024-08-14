@@ -26,6 +26,14 @@ public class StorageController: @unchecked Sendable {
       modelContainer = try ModelContainer(for: schema, configurations: config)
       modelContext = modelContainer.mainContext
       Logger().info("init modelContainer")
+
+      guard let urlApp = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).last else { return }
+      let url = urlApp.appendingPathComponent("default.store")
+      if FileManager.default.fileExists(atPath: url.path) {
+        Logger().info("swiftdata db at \(url.absoluteString)")
+      } else {
+        Logger().warning("can't find swiftdata db")
+      }
     } catch {
       fatalError("Could not initialize ModelContainer")
     }

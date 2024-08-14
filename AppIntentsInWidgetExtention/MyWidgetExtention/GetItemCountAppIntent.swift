@@ -9,9 +9,9 @@ import AppIntents
 import Foundation
 import Shared
 
-struct CurrentStatusAppIntent: AppIntent {
-  static var title: LocalizedStringResource = "CurrentStatusAppIntent"
-  static var description = IntentDescription("Get the current status of the app.")
+struct GetItemCountAppIntent: AppIntent {
+  static var title: LocalizedStringResource = "GetItemCountAppIntent"
+  static var description = IntentDescription("Get the item count")
   static var openAppWhenRun: Bool = false
 
   @Dependency
