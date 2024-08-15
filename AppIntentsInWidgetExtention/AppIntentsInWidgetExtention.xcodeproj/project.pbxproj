@@ -88,6 +88,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8406ABA02C6EBD4E002FCBD2 /* MyWidgetExtentionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyWidgetExtentionExtension.entitlements; sourceTree = "<group>"; };
 		84649EFA2C6C1B4A006896D9 /* AppIntentsInWidgetExtention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIntentsInWidgetExtention.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84649EFD2C6C1B4A006896D9 /* AppIntentsInWidgetExtentionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentsInWidgetExtentionApp.swift; sourceTree = "<group>"; };
 		84649F012C6C1B4B006896D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 		84649EF12C6C1B4A006896D9 = {
 			isa = PBXGroup;
 			children = (
+				8406ABA02C6EBD4E002FCBD2 /* MyWidgetExtentionExtension.entitlements */,
 				84649EFC2C6C1B4A006896D9 /* AppIntentsInWidgetExtention */,
 				84649F162C6C1B8F006896D9 /* MyWidgetExtention */,
 				84BA248D2C6C2B3000367C20 /* Shared */,
@@ -598,6 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MyWidgetExtentionExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZQ55P5BJ79;
@@ -627,6 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MyWidgetExtentionExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZQ55P5BJ79;
